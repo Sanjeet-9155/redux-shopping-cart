@@ -1,0 +1,89 @@
+.product-favourite {
+    border: 1px solid #ddd;
+    padding: 16px;
+    width: 400px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    border-radius: 6px;
+  }
+  
+  .product-favourite h3 {
+    text-align: center;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  .favorite-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .img-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 30%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .product-info {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .product-info h1 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .product-info h3 {
+    color: #f76c6c;
+    margin: 8px 0;
+  }
+  
+  .product-info p {
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  .image-display {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .button-con {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-con:hover {
+    background-color: #45a049;
+  }
+  
+  .button-con:first-child {
+    background-color: #f44336;
+  }
+  
+  .button-con:first-child:hover {
+    background-color: #d32f2f;
+  }
+  
+  .favorite-count {
+    margin-top: 16px;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
