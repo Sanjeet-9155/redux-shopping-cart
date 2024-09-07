@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { FaShoppingCart } from "react-icons/fa";
 import { add } from "../store/cartSlice";
 import { setProducts } from "../store/productSlice";
 
@@ -87,7 +86,7 @@ const Navbar = () => {
       </Link>
 
       <Link className="navLink-cart" to="/cart">
-        <FaShoppingCart className="navIcons" />
+        Cart
         {items.length > 0 && (
           <span className="cartCount">({items.length})</span>
         )}
